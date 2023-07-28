@@ -1,5 +1,6 @@
 package com.ciit_mobile.studentsapp.ui
 
+import android.content.Intent
 import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -16,6 +17,11 @@ class SignupActivity : AppCompatActivity() {
         signupBinding = ActivitySignupBinding.inflate(layoutInflater)
         setContentView(signupBinding.root)
         setupActionBar()
+        signupBinding.tvLogin.setOnClickListener {
+            val intent = Intent(this@SignupActivity, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
     private fun setupActionBar() {

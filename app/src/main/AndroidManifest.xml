@@ -27,7 +27,7 @@
             android:theme="@style/StudentsApp.NoActionBar"
             android:exported="false" />
         <activity
-            android:name=".ui.HomeActivity"
+            android:name=".ui.home.HomeActivity"
             android:exported="false" />
         <activity
             android:name=".ui.LoginActivity"

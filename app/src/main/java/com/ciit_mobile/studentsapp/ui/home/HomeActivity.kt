@@ -1,4 +1,4 @@
-package com.ciit_mobile.studentsapp.ui
+package com.ciit_mobile.studentsapp.ui.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
